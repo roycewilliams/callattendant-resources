@@ -21,6 +21,10 @@ A grab-bag of callattendant-related materials.
 ^[A-Z][0-9]{14}: BN - spam CID (V)
 ^\+[\d]: B9 - starts with plus
 ```
+---
+## Modem ideas
+* List: https://callboot.net/hardware.html
+* List: https://ascendis.com/callerid/modems.php
 
 ---
 ## WAV files
