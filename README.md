@@ -4,7 +4,7 @@ A grab-bag of callattendant-related materials.
 ## WAV files were generated with:
 
 ### Tools used:
-* ``ffmpeg`
+* `ffmpeg`
 * `sox`
 * `libsox-fmt-mp3`
 * https://github.com/pndurette/gTTS
