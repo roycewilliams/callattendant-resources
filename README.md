@@ -37,7 +37,7 @@ A grab-bag of [callattendant](https://github.com/thess/callattendant)-related ma
 
 ## Intercept (IC) [Special Information Tone](https://en.m.wikipedia.org/wiki/Special_information_tone) (SIT)
 * [OGG](https://en.m.wikipedia.org/wiki/File:IC_SIT.ogg)
-* ffmpeg -i IC_SIT.ogg -ar 8000 -ac 1 -acodec pcm_u8 IC_SIT.wav
+* `ffmpeg -i IC_SIT.ogg -ar 8000 -ac 1 -acodec pcm_u8 IC_SIT.wav`
 
 ### Silence
 * https://superuser.com/questions/579008/add-1-second-of-silence-to-audio-through-ffmpeg
