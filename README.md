@@ -27,5 +27,5 @@ A grab-bag of callattendant-related materials.
 * `ffmpeg -y -i "mp3/filename.mp3" -ar 8000 -ac 1 -acodec pcm_u8 "wav/filename.wav"`
 
 ### References
-* (Special Information Tone)[https://en.m.wikipedia.org/wiki/Special_information_tone]
+* [Special Information Tone](https://en.m.wikipedia.org/wiki/Special_information_tone)
 * https://robocall.devpost.com/submissions/12817-using-the-special-information-tone-for-disconnected-numbers
