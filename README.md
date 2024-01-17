@@ -9,7 +9,7 @@ A grab-bag of callattendant-related materials.
 * `libsox-fmt-mp3`
 * https://github.com/pndurette/gTTS
 
-## Intercept (IC) (Special Information Tone)[https://en.m.wikipedia.org/wiki/Special_information_tone] (SIT)
+## Intercept (IC) [Special Information Tone](https://en.m.wikipedia.org/wiki/Special_information_tone) (SIT)
 * [OGG](https://en.m.wikipedia.org/wiki/File:IC_SIT.ogg)
 
 ### Silence
@@ -25,3 +25,6 @@ A grab-bag of callattendant-related materials.
 `gtts-cli "text here" --output "mp3/filename.mp3"`
 
 `ffmpeg -y -i "mp3/filename.mp3" -ar 8000 -ac 1 -acodec pcm_u8 "wav/filename.wav"`
+
+### References
+* (Special Information Tone)[https://en.m.wikipedia.org/wiki/Special_information_tone]
