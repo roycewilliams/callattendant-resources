@@ -1,0 +1,2 @@
+# Poor-man's server startup
+@reboot /bin/tmux new -s "server" -d /home/pi/.callattendant/callattendant-start.sh
