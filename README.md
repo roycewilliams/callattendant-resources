@@ -36,7 +36,7 @@ A grab-bag of [callattendant](https://github.com/thess/callattendant)-related ma
 * `libsox-fmt-mp3`
 * https://github.com/pndurette/gTTS
 
-## Intercept (IC) [Special Information Tone](https://en.m.wikipedia.org/wiki/Special_information_tone) (SIT)
+### Intercept (IC) [Special Information Tone](https://en.m.wikipedia.org/wiki/Special_information_tone) (SIT)
 * [OGG](https://en.m.wikipedia.org/wiki/File:IC_SIT.ogg)
 * `ffmpeg -i IC_SIT.ogg -ar 8000 -ac 1 -acodec pcm_u8 IC_SIT.wav`
 
