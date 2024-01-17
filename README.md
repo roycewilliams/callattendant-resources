@@ -1,7 +1,27 @@
 # callattendant-resources
 A grab-bag of callattendant-related materials.
 
-## WAV files were generated with:
+---
+## Strategies
+* Aggressively prepopulate your 'Permitted' list.
+* If you never receive calls from most area codes, consider adding most of them to the Block Numbers regex:
+      ```^200: B9 - 200 (unused)
+      ^201: B9 - 201 (NJ)
+      ^202: B9 - 202 (DC)
+      ```
+* Other regex ideas:
+```
+[-\d]{12,}: B9 - 12+ numbers + dashes
+[\d]{12,}: B9 - 12+ numbers
+^$: BN - empty name
+^P$: BN - P(rivate)
+^O$: BN - O(ut of area)
+^[A-Z][0-9]{14}: BN - spam CID (V)
+^\+[\d]: B9 - starts with plus
+```
+
+---
+## WAV files
 
 ### Tools used:
 * `ffmpeg`
@@ -29,3 +49,4 @@ A grab-bag of callattendant-related materials.
 ### References
 * [Special Information Tone](https://en.m.wikipedia.org/wiki/Special_information_tone)
 * https://robocall.devpost.com/submissions/12817-using-the-special-information-tone-for-disconnected-numbers
+* [Telcodata.us Area Code + Exchanges lookup](https://www.telcodata.us/search-area-code-exchange-detail)
