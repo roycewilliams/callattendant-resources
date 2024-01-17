@@ -31,7 +31,7 @@ A grab-bag of [callattendant](https://github.com/thess/callattendant)-related ma
 
 ### Tools used:
 * `ffmpeg`
-* `sox`
+* `sox` (to concatenate multiple WAVs into a single WAV)
 * `libsox-fmt-mp3`
 * https://github.com/pndurette/gTTS
 
