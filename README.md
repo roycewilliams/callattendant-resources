@@ -1,5 +1,5 @@
 # callattendant-resources
-A grab-bag of [callattendant](https://github.com/thess/callattendant)-related materials.
+A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-related materials.
 
 ---
 ## Strategies
