@@ -2,7 +2,7 @@
 A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-related materials.
 
 ---
-## Strategies
+## Filtering strategies
 * Aggressively prepopulate your 'Permitted' list.
 * If you never receive calls from most area codes, consider adding most of them to the Block Numbers regex:
   
@@ -23,7 +23,7 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
 ^\+[\d]: B9 - starts with plus
 ```
 ---
-## Modem ideas
+## Modem hardware ideas
 * List: https://callboot.net/hardware.html
 * List: https://ascendis.com/callerid/modems.php
 
