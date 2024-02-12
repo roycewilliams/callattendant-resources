@@ -50,6 +50,7 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
 
 ### All others
 
+* `mkdir mp3 wav`
 * `gtts-cli "text here" --output "mp3/filename.mp3"`
 * `ffmpeg -y -i "mp3/filename.mp3" -ar 8000 -ac 1 -acodec pcm_u8 "wav/filename.wav"`
 * `ffmpeg -y -i "mp3/filename.mp3" -ar 8000 -ac 1 -filter:a "atempo=1.2" -acodec pcm_u8 "filename_faster.wav"`
