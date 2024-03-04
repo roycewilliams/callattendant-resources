@@ -2,7 +2,7 @@ If callattendant console throws "failed to put modem into voice mode" on USR 563
 
 Update firmware to latest (USRFlash 1.2.23.EXE)
 
-Typically:
+On Linux, flashing would typically look like this:
 
 ```sudo ./mdmflash -g /dev/ttyACM0 -f svn1223.hex```
 
