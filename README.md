@@ -3,7 +3,7 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
 
 ---
 ## Filtering strategies
-* Aggressively prepopulate your 'Permitted' list.
+* Aggressively prepopulate your 'Permitted' list. This can allow you to be more aggressive with filtering, with fewer false positives.
 * If you never receive calls from most area codes, consider adding most of them to the Block Numbers regex:
   
       ^200: B9 - 200 (unused)
