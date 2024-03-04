@@ -1,0 +1,17 @@
+The attached zip file contains the following files:
+
+Readme > This file
+svn*.hex > modem firmware
+ocmfldr.hex > Firmware loader
+mdmflash > Compiled executable for 2.6.x kernels only.
+
+Run the mdmflash file from a terminal prompt to update the modem firmware
+
+	-g		Device file modem is attached to
+			(e.g. /dev/ttyUSB0 or /dev/XRtty0)
+			Warning! No error checking on user input
+	-f filename	New firmware image found in the file: filename
+			(default modem_ei.hex)
+
+Example: user@domain:~$ ./mdmflash -g /dev/ttyS0 -f svn.hex
+
