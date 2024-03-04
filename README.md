@@ -10,7 +10,7 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
       ^201: B9 - 201 (NJ)
       ^202: B9 - 202 (DC)
       ...etc
-  See callattendant-regex-block-NA-area-codes.txt for a baseline.
+  See [callattendant-regex-block-NA-area-codes.txt](callattendant-regex-block-NA-area-codes.txt) for a baseline.
 
 * Other regex ideas:
 ```
