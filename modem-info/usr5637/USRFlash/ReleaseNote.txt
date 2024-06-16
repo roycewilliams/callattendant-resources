@@ -1,0 +1,59 @@
+
+1.2.23
+Fixed CID/RING detect failure
+
+1.2.22
+Fixed TAD harmonics
+
+1.2.21
+Fixed auto fallback to MNP in originate mode
+Fixed transition from/to 1200 odd parity
+Fixed @ dialing
+Enabled Voice
+
+1.2.20
+Fixed #UD parity reporting
+
+1.2.19
+Fixed DISC frame not sent on hangup
+Fixed LD frame not sent on hangup
+Fixed 1200 parity issue (even/odd with upper and lower case characters)
+
+1.2.17
+Fixed #UD parity/wordlength output
+
+1.2.15
+Modified i9 banner to USR
+
+1.2.10
+Added further DAA protection mechanism to prevent off hook during RING
+
+1.2.6
+Delayed connect message 200ms (USB only)
+
+1.2.1
+Enabled country display in i9
+
+1.2.0
+&Fn defaults to +PMH=1
+
+1.1.7
+Fixed comestic errors in +FMI +GMI commands
+
+1.1.4
+Added profile 1 in EEPROM and fix non-volatile ATY parameter
+Added AT&ZL? command
+Added stored phone number 3 in EEPROM
+
+1.1.3
+Fixed Digital Line Guard keypress abort
+
+1.1.2
+Fixed BUSY termination cause code
+
+1.1.1
+Pulse dialing not permitted in Norway,Sweden,Denmark	    
+DialPulseInterdigit=900 ms for France,Italy
+
+1.1.0
+Original Release
