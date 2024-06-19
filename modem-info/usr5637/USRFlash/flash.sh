@@ -11,14 +11,24 @@ sudo dmesg | grep -E '0baf|Modem|Robotics|tty'
 echo ""
 
 echo "- Attempting to guess device name from most recent dmesg ..."
-MYDEVICE=/dev/$(sudo dmesg | grep ttyACM | tr '[: ]' '\n' | grep ttyACM | tail -n 1)
+MYDEVICE_RAW=$(sudo dmesg | grep ttyACM | tr '[: ]' '\n' | grep ttyACM | tail -n 1)
+if [ -z "${MYDEVICE_RAW}" ]; then
+	>&2 echo "- Unable to detect ttyACM device - is a modem present?"
+	exit 1
+else
+	MYDEVICE=/dev/$(sudo dmesg | grep ttyACM | tr '[: ]' '\n' | grep ttyACM | tail -n 1)
+fi
 
 test -c "${MYDEVICE}" && echo "- Device ${MYDEVICE} appears to be a character-special device - good."
 echo ""
 
-echo "- Checking ${MYDEVICE} for current firmware version:"
-echo ATI3 | sudo socat - "${MYDEVICE},crnl" | uniq | head -n 4
-echo ""
+if command -v socat; then
+	echo "- Checking ${MYDEVICE} for current firmware version:"
+	echo ATI3 | sudo socat - "${MYDEVICE},crnl" | uniq | head -n 4
+else
+	>&2 echo "- Unable to check current firmware version - install 'socat'"
+	echo ""
+fi
 
 echo "- If firmware version is less than V1.2.23, and you need"
 echo "- voice functionality, you should proceed with flashing."
