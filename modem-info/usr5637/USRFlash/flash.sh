@@ -14,16 +14,17 @@ echo "- Attempting to guess device name from most recent dmesg ..."
 MYDEVICE_RAW=$(sudo dmesg | grep ttyACM | tr '[: ]' '\n' | grep ttyACM | tail -n 1)
 if [ -z "${MYDEVICE_RAW}" ]; then
 	>&2 echo "- Unable to detect ttyACM device - is a modem present?"
+	echo ""
 	exit 1
 else
-	MYDEVICE=/dev/$(sudo dmesg | grep ttyACM | tr '[: ]' '\n' | grep ttyACM | tail -n 1)
+	MYDEVICE=/dev/${MYDEVICE_RAW}
 fi
 
 test -c "${MYDEVICE}" && echo "- Device ${MYDEVICE} appears to be a character-special device - good."
 echo ""
 
 if command -v socat; then
-	echo "- Checking ${MYDEVICE} for current firmware version:"
+	echo "- Checking ${MYDEVICE} for current firmware version ..."
 	echo ATI3 | sudo socat - "${MYDEVICE},crnl" | uniq | head -n 4
 else
 	>&2 echo "- Unable to check current firmware version - install 'socat'"
@@ -35,7 +36,7 @@ echo "- voice functionality, you should proceed with flashing."
 echo ""
 
 echo "- Press Enter to flash ${MYDEVICE} with firmware file ${FIRMWARE_FILE},"
-echo "- or press Control-Break to abort."
+echo "- or press Control-C to abort."
 read -r blah
 echo "$blah" >/dev/null
 
