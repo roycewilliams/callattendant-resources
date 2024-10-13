@@ -22,6 +22,8 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
 ^[A-Z][0-9]{14}: BN - spam CID (V)
 ^\+[\d]: B9 - starts with plus
 ```
+* If you have a Panasonic DECT phone, you can delay first ring with Menu, #, 173. This gives callattendant an opportunity to filter/respond first, reducing unwanted ringing. Other phones may have this feature -- check your manual.
+  
 ---
 ## Modem hardware ideas
 * List: https://callboot.net/hardware.html
