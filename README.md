@@ -22,7 +22,7 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
 ^[A-Z][0-9]{14}: BN - spam CID (V)
 ^\+[\d]: B9 - starts with plus
 ```
-* If you have a Panasonic DECT phone, you can delay first ring with Menu, #, 173. This gives callattendant an opportunity to filter/respond first, reducing unwanted ringing. (NOTE: If you have an older Panasonic phone, menu shortcut 173 is called "Ring Once" (select "Yes"), If your menu option is "First Ring", select "1".) Other phones may have this feature -- check your manual.
+* If you have a Panasonic DECT phone, you can delay first ring with Menu, #, 173. This gives callattendant an opportunity to filter/respond first, reducing unwanted ringing. (NOTE: If you have an older Panasonic phone, menu shortcut 173 is called "Ring Once" (select "Yes"), If your menu option is "First Ring", select "1".) Panasonic menu steps for different models can be looked up [here](https://help.na.panasonic.com/answers/how-to-turn-off-the-first-ring-when-using-call-block). Other phones may have this feature -- check your manual. 
   
 ---
 ## Modem hardware ideas
