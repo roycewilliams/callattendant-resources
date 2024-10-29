@@ -44,7 +44,7 @@ This repo is my "grab bag" of supporting info and tools for running callattendan
   
 ---
 ## Modem hardware ideas
-* Most widely tested: U.S. Robotics USR5637, [flashed to latest firmware](https://github.com/roycewilliams/callattendant-resources/tree/main/modem-info/usr5637) (I have a few I can sell at cost if you have trouble finding one)
+* Most widely tested: The EOL but robust U.S. Robotics USR5637, [flashed to the last relase of its firmware](https://github.com/roycewilliams/callattendant-resources/tree/main/modem-info/usr5637). (Can be expensive, even on eBay. I have a few I can sell at cost if you have trouble finding one)
 * List: https://callboot.net/hardware.html
 * List: https://ascendis.com/callerid/modems.php
 
