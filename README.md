@@ -1,9 +1,11 @@
 # callattendant-resources
-A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-related materials.
+[callattendant](https://github.com/thess/callattendant) is a simple, self-hosted call-filtering platform for landlines.
+
+This repo is my "grab bag" of supporting info and tools for running callattendant.
 
 ---
 ## Quick overview
-* Requirements: only a Pi, python, [the repo](https://github.com/thess/callattendant), and a voice-compatible USB "hard" modem (see "Hardware" below and in repo)
+* Requirements: only a Pi (or other small PC), Linux, python, [the repo](https://github.com/thess/callattendant), and a voice-compatible USB "hard" modem (see "Hardware" below and in repo)
 * Built-in web server with a clean, simple interface (see repo) - no apache/nginx/etc required
 * Written in clean, legible, and simple Python
 * Does not sit between the wall and a phone - instead, it just listens on another extension ("blocks" pick up and hang up immediately)
