@@ -3,7 +3,7 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
 
 ---
 ## Quick overview
-* Requirements: only a Pi, python, the repo, and a voice-compatible USB "hard" modem
+* Requirements: only a Pi, python, [the repo](https://github.com/thess/callattendant), and a voice-compatible USB "hard" modem (see "Hardware" below and in repo)
 * Built-in web server with a clean, simple interface (see repo) - no apache/nginx/etc required
 * Written in clean, legible, and simple Python
 * Does not sit between the wall and a phone - instead, it just listens on another extension ("blocks" pick up and hang up immediately)
