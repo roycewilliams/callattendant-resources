@@ -8,7 +8,7 @@ On Linux, flashing would typically look like this:
 
 ```sudo ./mdmflash -g /dev/ttyACM0 -f svn1223.hex```
 
-A flashing helper script that I (Royce) royce --  `flash.sh` -- is also included. It's what I use, but the Linux binary for flashing requires a 2.6.x Linux kernel, so I run it on an old spare laptop with no network connectivity.
+A flashing helper script that I (Royce) wrote --  `flash.sh` -- is also included. It's what I use, but the Linux binary for flashing requires a 2.6.x Linux kernel, so I run it on an old spare laptop with no network connectivity.
 
 Refs:
 
