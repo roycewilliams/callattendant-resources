@@ -15,6 +15,11 @@ This repo is my "grab bag" of supporting info and tools for running callattendan
 * Some tech savvy required for initial setup, but web interface is designed to be simple (learning regexes isn't required unless you need them)
 
 ---
+## Startup and tools
+* The original author of callattendant assumed that folks would add their own startup / shutdown for the program.
+* The shell scripts in the top of this repo are a simple (not systemd) way to do so.
+
+---
 ## Filtering strategies
 * Aggressively prepopulate your 'Permitted' list. This can allow you to be more aggressive with filtering, with fewer false positives.
 * If you never receive calls from most area codes, consider adding most of them to the Block Numbers regex:
