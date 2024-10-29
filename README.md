@@ -2,6 +2,17 @@
 A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-related materials.
 
 ---
+## Quick overview
+* Requirements: only a Pi, python, the repo, and a voice-compatible USB "hard" modem
+* Built-in web server with a clean, simple interface (see repo) - no apache/nginx/etc required
+* Written in clean, legible, and simple Python
+* Does not sit between the wall and a phone - instead, it just listens on another extension ("blocks" pick up and hang up immediately)
+* Customizable caller-facing voice menus ("press one if you're a human", etc.)
+* Can allow or block callers based on either lists, or regular expressions
+* No artificial limits on how many numbers it can allow or block
+* Some tech savvy required for initial setup, but web interface is designed to be simple (learning regexes isn't required unless you need them)
+
+---
 ## Filtering strategies
 * Aggressively prepopulate your 'Permitted' list. This can allow you to be more aggressive with filtering, with fewer false positives.
 * If you never receive calls from most area codes, consider adding most of them to the Block Numbers regex:
@@ -26,11 +37,13 @@ A grab-bag of low-tech [callattendant](https://github.com/thess/callattendant)-r
   
 ---
 ## Modem hardware ideas
+* Most widely tested: U.S. Robotics USR5637, [flashed to latest firmware](https://github.com/roycewilliams/callattendant-resources/tree/main/modem-info/usr5637) (I have a few I can sell at cost if you have trouble finding one)
 * List: https://callboot.net/hardware.html
 * List: https://ascendis.com/callerid/modems.php
 
 ---
 ## WAV files
+* Need to be converted to a specific format to be used by the modem
 
 ### Tools used:
 * `ffmpeg`
