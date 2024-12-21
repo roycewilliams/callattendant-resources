@@ -8,7 +8,7 @@ This repo is my "grab bag" of supporting info and tools for running callattendan
 * Requirements: only a Pi (or other small PC), Linux, python, [the repo](https://github.com/thess/callattendant), and a voice-compatible USB "hard" modem (see "Hardware" below and in repo)
 * Built-in web server with a clean, simple interface (see repo) - no apache/nginx/etc required
 * Written in clean, legible, and simple Python
-* Does not sit between the wall and a phone - instead, it just listens on another extension ("blocks" pick up and hang up immediately)
+* Does not sit between the wall and a phone - instead, it just listens on another extension ("blocking" by picking up and then immediately hanging up)
 * Customizable caller-facing voice menus ("press one if you're a human", etc.)
 * Can allow or block callers based on either lists, or regular expressions
 * No artificial limits on how many numbers it can allow or block
