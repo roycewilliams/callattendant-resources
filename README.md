@@ -13,6 +13,7 @@ This repo is my "grab bag" of supporting info and tools for running callattendan
 * Can allow or block callers based on either lists, or regular expressions
 * No artificial limits on how many numbers it can allow or block
 * Some tech savvy required for initial setup, but web interface is designed to be simple (learning regexes isn't required unless you need them)
+* @telnetdoogie maintains a [Dockerized version](https://github.com/telnetdoogie/callattendant-docker)
 
 ---
 ## Startup and tools
