@@ -18,7 +18,7 @@ This repo is my "grab bag" of supporting info and tools for running callattendan
 ## Startup and tools
 * The original author of callattendant assumed that folks would add their own startup / shutdown for the program.
 * The shell scripts in the top of this repo are a simple (not systemd) way to do so.
-* * @telnetdoogie maintains a [Dockerized version](https://github.com/telnetdoogie/callattendant-docker)
+* @telnetdoogie maintains a [Dockerized version](https://github.com/telnetdoogie/callattendant-docker)
 
 ---
 ## Filtering strategies
