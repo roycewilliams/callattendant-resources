@@ -46,9 +46,9 @@ This repo is my "grab bag" of supporting info and tools for running callattendan
 ---
 ## Modem hardware ideas
 * Most widely tested: the EOL but robust U.S. Robotics USR5637, [flashed to the last relase of its firmware](https://github.com/roycewilliams/callattendant-resources/tree/main/modem-info/usr5637). Can be expensive (US$70 or more), even on eBay. (I have a few that I bought in a lot I can sell you at cost ($50 shipped), if you have trouble finding one -- already flashed!)
-* Another modem commonly used: the Dell RD02-D400. It requires a specific init string to work with callattendant (thess's fork applies this automatically)
-* List: https://callboot.net/hardware.html
-* List: https://ascendis.com/callerid/modems.php
+* Another modem commonly used: the Dell RD02-D400. It requires a specific init string to work with callattendant (thess's fork applies this automatically). As of Feb 2025, these are going for around US$30 on eBay.
+* Other potential modems (CallBoot project's list): https://callboot.net/hardware.html
+* Other potential modems (Ascendis' list): https://ascendis.com/callerid/modems.php
 
 ---
 ## WAV files
