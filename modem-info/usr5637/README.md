@@ -1,6 +1,6 @@
 This is a mirror of the original firmware distribution that adds voice capabilities to the USR 5637 USB "hard" modem.
 
-If the callattendant console throws an "failed to put modem into voice mode" error on USR 5637 modem, update firmware to latest.
+If the callattendant console throws a "failed to put modem into voice mode" error on USR 5637 modem, update firmware to latest.
 
 On Windows, use "USRFlash 1.2.23.EXE".
 
